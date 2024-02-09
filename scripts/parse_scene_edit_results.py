@@ -162,9 +162,10 @@ def parse_single_result(results_dir, eval_out_dir, save_hist_data=False, gt_hist
             agg_results[k_d] = k_d_v
             if k in agent_keys:
                 k_d_v_list.append(k_d_v)
+                print(k_d, k_d_v)
             elif k in rel_agents_keys:
                 int_k_d_v_list.append(k_d_v)
-            print(k_d, k_d_v)
+                print(k_d, k_d_v)
         agg_results['mean_real_dev'] = np.mean(k_d_v_list)
         agg_results['mean_real_dev_int'] = np.mean(int_k_d_v_list)
         print('mean_real_dev', np.mean(k_d_v_list))

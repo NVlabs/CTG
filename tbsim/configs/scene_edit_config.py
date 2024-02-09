@@ -312,15 +312,15 @@ class SceneEditingConfig(EvaluationConfig):
              'agents' : None,
             },            
             # 4,5,6.map collision
-            # {
-            #  'name' : 'map_collision',
-            #  'weight' : 1.0,
-            #  'params' : {
-            #                 'num_points_lw' : (10, 10),
-            #                 'decay_rate': 0.9,
-            #             },
-            #  'agents' : None,
-            # },   
+            {
+             'name' : 'map_collision',
+             'weight' : 1.0,
+             'params' : {
+                            'num_points_lw' : (10, 10),
+                            'decay_rate': 0.9,
+                        },
+             'agents' : None,
+            },   
             # gptcollision
             # {
             #  'name' : 'gptcollision',
