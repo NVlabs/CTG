@@ -27,7 +27,7 @@ class NuplanTrajdataSceneTrainConfig(TrajdataTrainConfig):
 
         # training config
         self.training.batch_size = 4 # 100
-        self.training.num_steps = 200000
+        self.training.num_steps = 100000
         self.training.num_data_workers = 8
 
         self.save.every_n_steps = 10000
