@@ -12,10 +12,10 @@ conda create -n bg3.9 python=3.9
 conda activate bg3.9
 ```
 
-Install `tbsim` (this repo)
+Install `CTG` (this repo)
 ```angular2html
-git clone https://github.com/AIasd/tbsim.git behavior-generation
-cd behavior-generation
+git clone https://github.com/NVlabs/CTG.git CTG
+cd CTG
 pip install -e .
 ```
 
