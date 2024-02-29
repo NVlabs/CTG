@@ -14,7 +14,7 @@ conda activate bg3.9
 
 Install `CTG` (this repo)
 ```angular2html
-git clone https://github.com/NVlabs/CTG.git CTG
+git clone https://github.com/NVlabs/CTG.git
 cd CTG
 pip install -e .
 ```
