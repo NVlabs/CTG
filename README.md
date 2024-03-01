@@ -148,7 +148,7 @@ python scripts/parse_scene_edit_results.py --results_dir
 
 ## Pre-trained models
 We have provided checkpoints for models of CTG and CTG++ [here](https://drive.google.com/drive/folders/17oYCNGTzBPWjKqvvA8JO67WswyI0j5vw?usp=sharing). 
-Note that the provided CTG model slightly differ from that in the is the original CTG paper. The main difference is that the prediction horizon is 52 rather than 20. The pre-trained models are provided under the **CC-BY-NC-SA-4.0 license**.
+Note that the provided CTG model slightly differ from that in the original CTG paper. The main difference is that the prediction horizon is 52 rather than 20. The pre-trained models are provided under the **CC-BY-NC-SA-4.0 license**.
 
 ## Configurations
 check out `class DiffuserConfig` and `class SceneDiffuserConfig` in `algo_config.py` for algorithm configs, `trajdata_nusc_config.py` for dataset configs, and `scene_edit_config.py` for rollout configs (including changing the guidance used during denoising).
